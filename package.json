@@ -1,0 +1,23 @@
+{
+  "name": "rustmon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.cjs",
+  "bin": {
+    "rustmon": "./bin/index.cjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c && npm link"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@types/node": "^20.5.9",
+    "rollup": "^3.28.1",
+    "rollup-plugin-typescript2": "^0.35.0"
+  }
+}
